@@ -1,11 +1,10 @@
 # Letterbox Solver
 
 ## Premise
-
-### The new york times, famed publishers of the crossword and wordle also have host other word games
-### such as Letter Box (https://www.nytimes.com/puzzles/letter-boxed). I personally enjoy this one most of all,
-### but lack the word game prowess to solve every puzzle. This is why I have created this project, with aims of out sourcing
-### the tedium of puzzle solving to the computer, so us humans can get on with our business
+The new york times, famed publishers of the crossword and wordle also have host other word games
+such as Letter Box (https://www.nytimes.com/puzzles/letter-boxed). I personally enjoy this one most of all,
+but lack the word game prowess to solve every puzzle. This is why I have created this project, with aims of out sourcing
+the tedium of puzzle solving to the computer, so us humans can get on with our business
 
 
 ## User stories
