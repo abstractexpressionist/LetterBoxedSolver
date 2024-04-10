@@ -5,7 +5,7 @@ import java.util.*;
 public class Solver { 
     public ArrayList<ArrayList<String>> solutions = new ArrayList<ArrayList<String>>();
     public ArrayList<String> potential_solution = new ArrayList<String>();
-    public int solution_length;
+    private int solution_length;
     public static int MAX_SOLUTION_LENGTH = 5;
     public int time_to_solve;
     public BitSet letters_needed = new BitSet(12); // Used to keep track of the letters required to complete a solution
@@ -215,12 +215,16 @@ public class Solver {
     }
 
     public void printSolutions() {
-        System.out.printf("Found %d solutions in %d milliseconds: %n", solutions.size(), time_to_solve);
-        for (ArrayList<String> solution : this.solutions) {
-            for (String word : solution) {
-                System.out.print(word + ' ');
+        if (solutions.size() > 0) {
+            System.out.printf("Found %d solutions in %d milliseconds: %n", solutions.size(), time_to_solve);
+            for (ArrayList<String> solution : this.solutions) {
+                for (String word : solution) {
+                    System.out.print(word + ' ');
+                }
+                System.out.println();
             }
-            System.out.println();
+        } else { 
+            System.out.println("No solutions found :(");
         }
     }
 }

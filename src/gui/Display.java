@@ -144,14 +144,19 @@ public class Display {
         solutions_display.setEditable(false);
         solutions_display.setLineWrap(true);
         solutions_display.setFont(solutions_display.getFont().deriveFont(15f));
-        solutions_display.append("found " + solver.solutions.size() + " solutions in " + solver.time_to_solve + " milliseconds\n");
-        solutions_display.append("solutions:\n");
-        for (int i = 0; i < solver.solutions.size(); i++) {
-            for (String str : solver.solutions.get(i)) {
-                solutions_display.append(str + ' ');
+        if (solver.solutions.size() > 0) {
+            solutions_display.append("found " + solver.solutions.size() + " solutions in " + solver.time_to_solve + " milliseconds\n");
+            solutions_display.append("solutions:\n");
+            for (int i = 0; i < solver.solutions.size(); i++) {
+                for (String str : solver.solutions.get(i)) {
+                    solutions_display.append(str + ' ');
+                }
+                solutions_display.append("\n"); 
             }
-            solutions_display.append("\n"); 
+        } else {
+            solutions_display.append("no solutions found :(");
         }
+        
         solve_c.insets = s.title_inset;
         solve_c.gridwidth = 3;
         solve_c.gridheight = 1;
