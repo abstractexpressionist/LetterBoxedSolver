@@ -1,0 +1,33 @@
+{
+    "java.project.sourcePaths": ["src", "tests"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              //following will be in italic (=FlottFlott)
+              "comment",
+              "variable.parameter",
+              "entity.name.type.class", //class names
+              "keyword", //import, export, return…
+              "constant", //String, Number, Boolean…, this, super
+              "storage.modifier", //static keyword
+              "storage.type.class.js", //class keyword
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      },
+    "editor.inlayHints.enabled": "off",
+    "cSpell.words": [
+        "datas",
+        "Dictionarytestcase",
+        "loascuixtrhb",
+        "nessacary"
+    ],
+}

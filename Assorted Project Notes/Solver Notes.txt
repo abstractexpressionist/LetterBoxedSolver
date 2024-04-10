@@ -1,0 +1,12 @@
+General idea
+There are two things that make a guess good: having a lot of (preferably uncommon) unique letters, and ending with a letter that words often start with, 
+so before solving we need to know the frequency of each letter in sides in valid words, and the frequency of each letter being in the first position.
+Once we know that we can give each word in valid_words some sort of score, then actually begin to find solutions
+
+for the solver
+1. associate each valid word with a sequence of bits representing the characters it contains, and also record the character it ends with
+
+testing getSolutions
+why do we need the visited flag:
+to prevent us from getting caught in a loop where there are no words which add letters that start with the ending letter of the previous word
+if a word leads to a dead end from a particular game state, we dont want to be prevented from using it again later 

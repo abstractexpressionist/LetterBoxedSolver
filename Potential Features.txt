@@ -1,0 +1,3 @@
+1. Some kind of answer grading system akin to wordle bot (probably would be hard)
+2. Extra mode, letter shape (solve n sided shapes)
+3. Find the best move from arbitrary gamestates (prereq for idea 1, probably would be simpler)
