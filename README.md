@@ -20,6 +20,3 @@ the tedium of puzzle solving to the computer, so us humans can get on with our b
 * i ain't about to let no son of sam-ual johnson tell me what is and isn't a word, which is why i've curated and edited my own english dictionary. When will you let me solve Letter Box for it?
 
 ## written by SN: 88568902
-
-
-
