@@ -5,7 +5,8 @@ import java.awt.event.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import javax.swing.*;
-import DictionaryCleaner.GameDictionaryCleaner;
+
+import dictionarycleaner.GameDictionaryCleaner;
 import solver.Solver;
 
 public class SolveButtonAL implements ActionListener {

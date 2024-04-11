@@ -1,8 +1,7 @@
 package solver;
 
 import java.util.Comparator;
-
-
+// This should probably just be an anonymous class in solver
 public class AlphabetizerComparator implements Comparator<String> {
 
     public int compare(String str_1, String str_2) {

@@ -4,7 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
-import DictionaryCleaner.DictionaryCleaner;
+
+import dictionarycleaner.DictionaryCleaner;
 
 public class TestData {
     // Letters, solutions, and the reference dictionary are from the nyt Letter Boxed puzzle for march 1st

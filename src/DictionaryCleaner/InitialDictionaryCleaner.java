@@ -1,4 +1,4 @@
-package DictionaryCleaner;
+package dictionarycleaner;
 
 import java.io.*; 
 

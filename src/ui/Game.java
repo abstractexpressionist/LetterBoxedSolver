@@ -1,6 +1,7 @@
 package ui;
 import java.io.*;
-import DictionaryCleaner.GameDictionaryCleaner;
+
+import dictionarycleaner.GameDictionaryCleaner;
 import solver.Solver;
 
 public abstract class Game {

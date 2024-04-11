@@ -1,10 +1,12 @@
 package gui;
 
 import javax.swing.*;
+
+import dictionarycleaner.*;
+
 import java.awt.*;
 import java.util.*;
 import solver.*;
-import DictionaryCleaner.*;
 
 public class Display {
     JFrame frame = new JFrame("Letter Boxed Solver");

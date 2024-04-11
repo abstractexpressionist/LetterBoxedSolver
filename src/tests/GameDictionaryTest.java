@@ -3,7 +3,8 @@ package tests;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import org.junit.*;
-import DictionaryCleaner.GameDictionaryCleaner;
+
+import dictionarycleaner.GameDictionaryCleaner;
 
 public class GameDictionaryTest {
     GameDictionaryCleaner test_game_dictionary;
