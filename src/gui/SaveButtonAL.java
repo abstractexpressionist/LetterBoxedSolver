@@ -16,7 +16,7 @@ public class SaveButtonAL implements ActionListener {
     public SaveButtonAL(Solver solver, JButton save_button) {
         this.solver = solver;
         this.save_button = save_button;
-        String file_name = "saved games/" + new SimpleDateFormat("yyyyMMddHHmm").format(new Date()) + ".txt";
+        String file_name = "saved games/" + new SimpleDateFormat("dd-MM-YYYY").format(new Date()) + ".txt";
         saved_game = new File(file_name);
     }
 
@@ -49,7 +49,7 @@ public class SaveButtonAL implements ActionListener {
                 }
                 char_array_sides[m][n] = solver.letters.charAt(i);
             }
-            // You know its gone bad when the undergrads using modulo to put things in an array
+            // Sometimes you really just don't care anymore
 
 
             System.out.print(" ");

@@ -1,0 +1,10 @@
+ e c f 
+b     n
+l     d
+u     a
+ r t i 
+
+Found 3 solutions in 6 milliseconds: 
+bifurcated delineate 
+bifurcate entailed 
+unfiltered debacle 
